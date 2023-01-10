@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(sea1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;   
+}
+.logo a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 20px;
+    border: 1px solid white;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.logo span{
+    color: rgb(238, 56, 11);
+    font-weight: bold;
+    font-size: 2rem;
+}
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+   margin: 20px 0px;
+  
+
+  
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding:10px 20px;
+    font-size: 1.5rem;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.8s ease;
+
+}
+a:hover{
+    background:white;
+    color: #000;
+}
+ul li.active a{
+    background: white;
+    color: #000;
+}
+.principale{
+    max-width: 114rem;
+    margin: auto;
+}
+.titre{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%) ;
+}
+.titre h1{
+    color: white;
+    font-size: 70px;
+}
+.bouton{
+    position: absolute;
+    top: 60%;
+    left:50%;
+    transform: translate(-50%,-50%) ;
+}
+.bouton a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+.btn{
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: #000;
+}
